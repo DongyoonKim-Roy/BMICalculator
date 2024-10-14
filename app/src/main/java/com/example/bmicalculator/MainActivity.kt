@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         viewBinding = ActivityMainBinding.inflate(layoutInflater)
         enableEdgeToEdge()
-        installSplashScreen()
         setContentView(viewBinding.root)
         viewBinding.calculate.setOnClickListener(){
             calculateBMI()
